@@ -4,6 +4,8 @@
   "description": "Lab BorntoDev",
   "main": "index.js",
   "scripts": {
+    "start": "set DEBUG=app & nodemon app.js",
+    "debug": "set DEBUG=* & nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,7 +13,16 @@
   "dependencies": {
     "chalk": "^5.4.1",
     "debug": "^4.4.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.10"
+  },
+  "nodemonConfig": {
+    "restarttable": "rs",
+    "delay": 3000,
+    "env": {
+      "PORT": 6500
+    }
   }
 }
