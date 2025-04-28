@@ -16,16 +16,16 @@ app.set("views","./src/views");
 app.set("view engine", "ejs");
 
 ProductRouter.route("/").get((req, res)=>{
-    res.render('products',{
-        products:[
+    res.render('product',{
+        product:[
             {productTitle:'จอคอมเกมมิ่ง', productDescription:'จอคอมเกมมิ่ง 35 นิ้ว', price: 3500},
             {productTitle:'จอคอมเกมมิ่ง2', productDescription:'จอคอมเกมมิ่ง 36 นิ้ว', price: 4500},
             {productTitle:'จอคอมเกมมิ่ง3', productDescription:'จอคอมเกมมิ่ง 37 นิ้ว', price: 5500},
             {productTitle:'จอคอมเกมมิ่ง4', productDescription:'จอคอมเกมมิ่ง 38 นิ้ว', price: 6500}
-        ]
-    })
-})
-app.use("/products", ProductRouter)
+        ],
+    });
+});
+app.use("/product", ProductRouter)
 
 
 app.get("/", (req, res) => {
