@@ -4,7 +4,7 @@
   "description": "Lab BorntoDev",
   "main": "index.js",
   "scripts": {
-    "start": "set DEBUG=* & nodemon app.js",
+    "start": "set DEBUG=app & nodemon app.js",
     "debug": "set DEBUG=* & nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

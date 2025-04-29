@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "productTitle": "จอคอมเกมมิ่ง",
+        "productDescription": "จอคอมเกมมิ่ง 35 นิ้ว",
+        "price": 3500
+    },
+    {
+        "id": 1,
+        "productTitle": "จอคอมเกมมิ่ง2",
+        "productDescription": "จอคอมเกมมิ่ง 36 นิ้ว",
+        "price": 4500
+    },
+    {
+        "id": 2,
+        "productTitle": "จอคอมเกมมิ่ง3",
+        "productDescription": "จอคอมเกมมิ่ง 37 นิ้ว",
+        "price": 5500
+    },
+    {
+        "id": 3,
+        "productTitle": "จอคอมเกมมิ่ง4",
+        "productDescription": "จอคอมเกมมิ่ง 38 นิ้ว",
+        "price": 6500
+    }
+]

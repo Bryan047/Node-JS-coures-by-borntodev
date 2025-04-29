@@ -138,12 +138,16 @@
   <section id="features" class="ud-features">
     <div class="container">
       <h1>Hello world</h1>
-      <% product.map((product)=>{ %>
+      <% products.map((products)=>{ %>
         <h4>
-          <%= product.productTitle %>
+          <a href="/products/<%=products.id%>"><%= products.productTitle %></a>
         </h4>
         <p>
-          <%= product.productDescription< /p>
+          <%= products.productDescription %> 
+        </p>
+        <p>
+          ราคา : <%= products.price %>
+        </p>
             <%})%>
     </div>
   </section>
