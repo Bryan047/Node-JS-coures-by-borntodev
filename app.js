@@ -19,7 +19,7 @@ app.use("/products", ProductsRouter);
 
 app.get("/", (req, res) => {
 
-    res.render('index',{username: 'Bryan037', customer:["kiki","kitty","hee"]});
+    res.render('index',{username: 'Bryan037', customer:["kiki","kitty","kit"]});
 })
 
 app.listen(PORT, () => {
